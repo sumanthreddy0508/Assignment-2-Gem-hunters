@@ -114,7 +114,7 @@ public class Board
     {
         Random random = new Random(); // Random number generator
         // Place 5 gems randomly on the board
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 8; i++)
         {
             int x = random.Next(6); // Random X-coordinate
             int y = random.Next(6); // Random Y-coordinate
